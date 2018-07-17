@@ -1,4 +1,4 @@
-# ScrunkTools
+# Scrunk Tools
 A collection of scripts to automate Scrunk server setup/maintenance 
 
 ## Server Parameters
