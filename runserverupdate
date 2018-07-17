@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./steamcmd.sh +@ShutdownOnFailedCommand 1 +@NoPromptForPassword 1 +login anonymous +force_install_dir ScrunkServer +app_update 839510 validate +quit

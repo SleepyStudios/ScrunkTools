@@ -1,0 +1,6 @@
+#!/bin/bash
+
+killall screen &&
+./runserverupdate &&
+cd ScrunkServer &&
+./launchservers $1 $2

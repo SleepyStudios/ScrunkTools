@@ -1,0 +1,12 @@
+#!/bin/bash
+
+wget https://sleepystudios.net/scrunk/runserverupdate &&
+chmod 755 runserverupdate &&
+wget https://sleepystudios.net/scrunk/runbatchserverupdate &&
+chmod 755 runbatchserverupdate &&
+sudo yum install glibc.i686 libstdc++.i686 &&
+wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz &&
+tar -xvzf steamcmd_linux.tar.gz &&
+sudo yum install java-1.8.0 &&
+sudo yum remove java-1.7.0-openjdk &&
+./runserverupdate
