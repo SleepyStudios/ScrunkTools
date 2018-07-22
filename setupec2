@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wget https://sleepystudios.net/scrunk/runserverupdate &&
+wget https://github.com/SleepyStudios/ScrunkTools/blob/master/runserverupdate &&
 chmod 755 runserverupdate &&
-wget https://sleepystudios.net/scrunk/runbatchserverupdate &&
+wget https://github.com/SleepyStudios/ScrunkTools/blob/master/runbatchserverupdate &&
 chmod 755 runbatchserverupdate &&
 sudo yum install glibc.i686 libstdc++.i686 &&
 wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz &&
