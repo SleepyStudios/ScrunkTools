@@ -11,3 +11,5 @@ You can add on parameters to customise your server e.g. 'java -jar ScrunkServer.
 * --tcp: TCP port to use (default 5000)
 
 * --udp: UDP port to use (default 5001)
+
+* -h or --hidden: Your server won't come up in the server browser or in matchmaking
