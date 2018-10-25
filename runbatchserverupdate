@@ -1,5 +1,3 @@
-#!/bin/bash
-
 killall screen &&
 ./runserverupdate &&
 cd ScrunkServer &&
